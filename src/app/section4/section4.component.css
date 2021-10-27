@@ -1,0 +1,55 @@
+.container{
+    width:75%;
+    height:120px; 
+    background-color: dodgerblue;
+    margin-top:50px;
+    margin-bottom:50px;
+    border-radius: 10px;
+}
+.header{
+    padding-top:32px;
+    color:white;
+}
+.para{
+    margin-top: -13px;
+    color:gainsboro;
+}
+.left{
+    float:left;
+    width:49%;
+}
+.right{
+    float:left;
+    width:49%;
+    text-align: right;
+}
+.para1{
+    color:gainsboro;
+    font-size: 12px;
+
+}
+.btn{
+    background-color: dodgerblue;
+}
+input{
+    border:1px solid white;
+    height:30px;
+}
+.btn{
+    border: 1px solid white;
+    padding-bottom:30px;
+    height: 30px;
+    margin-right: 20px;
+}
+form{
+    margin-top:50px;
+    
+}
+.btn:hover{
+    background-color:ghostwhite;
+}
+
+ .clr{
+     clear:both;
+ }
+ 

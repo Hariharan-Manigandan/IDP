@@ -1,0 +1,29 @@
+<div class="err">
+    <h1 class="head">OOPS! This site cant be reached </h1> <br><br>
+    <div class="sec">
+    <h6>calculate your Simple Intrest</h6> <br><br>
+<label>Principle</label><input type="text"  placeholder="Enter the principle amount" #princ> <br><br>
+<label>Rate</label><input type="text" min=5 max=8 value={{rate1}} placeholder="Enter the Rate of intrest" #rate> <br><br>
+<label>Time</label><input type="text" placeholder="Emter the time in months" #mon> <br><br> 
+<select #myval (change)="func(myval.value)">
+    <option>HomeLoan</option>
+    <option>VehicleLoan</option>
+    <option>Personal Loan</option>
+    <option>Educational Loan</option>
+</select><br><br>
+
+<input type="button" value="Calculate" (click)="cal(princ.value,mon.value,rate.value)">
+
+<input type="Reset" value="Reset">
+
+<h4>{{chng}}</h4>
+</div>
+
+
+
+
+<input type="text" [(ngModel)]="mydata" style="width: 300px;height: 40px;border-radius: 20px;">  
+<br>
+{{mydata}}
+
+</div>

@@ -1,0 +1,55 @@
+div.icons{
+    text-align:right;
+    width: 65%;
+}
+#icons{
+    padding:0px 15px;
+    vertical-align: middle;
+}
+li a{
+
+    transition: .3s transform;
+    text-decoration: none;
+    color:white;
+
+ 
+
+}
+
+ li a:hover
+
+{
+
+    transform:scale(1.1);
+
+    background: silver;
+
+    color:black;
+
+}
+.submenu{
+    display:none;
+}
+.menubar ul li:hover .submenu{
+    display: block;
+    position:absolute;
+    background-color:silver;
+    color:black; 
+    margin-left: -15px;
+    z-index: 1;
+}
+.menubar ul li :hover .submenu ul {
+    display:block;
+    margin: 10px;
+    
+}
+.menubar ul li :hover .submenu ul li {
+    width:150px;
+    padding: 10px;
+    border-bottom: 1px dotted black;
+    background: transparent;
+    list-style-type: none;
+}
+.menubar ul li :hover .submenu ul li:last-child{
+    border-bottom: none;
+}

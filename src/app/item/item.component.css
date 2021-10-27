@@ -1,0 +1,32 @@
+
+.title{
+    text-align: center;
+    font-size: 60px;
+    margin-top: 5%;
+}
+.para{
+    text-align: center;
+    margin-left: 10% !important;
+    margin-right:10% !important ;
+}
+.sec1{
+    margin-top: 50px;
+    margin-left: 110px;
+}
+.srow{
+    margin-top: 70px;
+    height:400px;
+}
+.col1{
+    float:left;
+    padding-left: 65px;
+}
+.words{
+    margin-top: 70px;
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+}
+.lin{
+    text-align: center;
+    height: 70px;
+}

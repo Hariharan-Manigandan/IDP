@@ -1,0 +1,56 @@
+<p>register works!</p>
+<div class="alt">
+   
+<table>
+
+    <tr>
+
+        <td><label>Name:</label></td>
+
+        <td><input type="text" #name></td>
+
+    </tr>
+
+<br>
+
+    <tr>
+
+        <td><label>Phone Number</label></td>
+
+        <td><input type="text" #phone></td>
+
+    </tr>
+
+<br>
+
+    <tr>
+
+        <td><label>Email</label></td>
+
+        <td><input type="text" #email></td>
+
+    </tr>
+
+<br>
+
+    <tr>
+
+        <td><label>Password</label></td>
+
+        <td><input type="password" #pass></td>
+
+    </tr>
+
+
+
+</table><br><br>
+
+
+
+<input type="submit" value="Submit" (click)="register(name.value,phone.value,email.value,pass.value)">  
+
+<input type="button" value="remove" (click)="rem(name.value,phone.value,email.value,pass.value)">
+
+
+</div>
+

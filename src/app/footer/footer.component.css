@@ -1,0 +1,32 @@
+.foot{
+    width:100%;
+    height:70px;
+    background-color: black;
+}
+.fleft{
+   float:left;
+   width:49%;
+   color:ghostwhite;
+}
+.fright{
+   float:left;
+   width:49%;
+   color:ghostwhite;
+}
+ul li a{
+   color:ghostwhite;
+}
+li{
+   list-style-type: none;
+   display:inline-block;
+   padding-left:30px ;
+   margin-top: 20px;
+}
+ul{
+   margin-left: 300px;
+}
+.fpara{
+   margin-left: 100px;
+   margin-top: 20px;
+
+}

@@ -1,0 +1,40 @@
+.para{
+    color:blueviolet
+}
+.container{
+    width:100%;
+    margin-top: 30px;
+}
+.column1{
+    float:left;
+    width:29%;
+    height:500px;
+    padding-top: 100px;
+}
+.clr{
+    clear:both;
+}
+.column2{
+    float:right;
+    width:60%;
+    height:550px;
+}
+.col1{
+    float:left;
+    width:49%;
+    text-align: center;
+    padding-left:25px;
+
+}
+.col2{
+    float:left;
+    width:49%;
+    text-align: center;
+    margin-top: 30px;
+    padding-left:25px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.clr{
+    clear:both;
+}

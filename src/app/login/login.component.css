@@ -1,0 +1,23 @@
+label{
+
+    width:200px;  
+
+    display: inline-block;        
+
+}
+input{
+    width:200px;
+}
+.btn{
+    background-color: dodgerblue;
+    color:white;
+    width: 100px;
+    margin-left: 200px;
+}
+
+.alt{
+    width:100%;
+    margin-top: 100px;
+  margin-left: 20%;
+    height: 500px;
+}
